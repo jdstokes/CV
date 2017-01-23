@@ -3,6 +3,7 @@
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
 \usepackage{enumitem}
+\usepackage{hyperref}
 \oddsidemargin -0.25in
 \textwidth 5.75in
 
@@ -18,9 +19,9 @@
  
 \begin{resume}
 \moveleft 0.5\hoffset\centerline 
-{abbiepopa@gmail.com \quad \quad \quad \quad  \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad  \quad \quad \quad   401-440-5228}
+{\hyperref[abbiepopa@gmail.com]{abbiepopa@gmail.com} \quad \quad \quad \quad  \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad  \quad \quad \quad   401-440-5228}
 \moveleft 0.5\hoffset\centerline 
-{\hspace{0.05cm} linkedin.com/in/abbiepopa \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad  \quad \quad \quad  \quad \quad \quad   \quad github.com/abbiepopa}
+{\hspace{0.05cm} \hyperref[linkedin.com/in/abbiepopa]{linkedin.com/in/abbiepopa} \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad  \quad \quad \quad  \quad \quad \quad   \quad \hyperref[github.com/abbiepopa]{github.com/abbiepopa}}
  
 \section{EDUCATION} 
 \textbf{PhD University of California at Davis}, Davis, CA, (September 2012 - December 2017)\\
@@ -97,10 +98,10 @@ Major: Cognitive Neuroscience with a Data Science Initiative Affiliation\\
 
 %\section{SENIOR HONORS THESIS}
 \section{PROJECTS}
-\textbf{Kaggle Done Quick}\\
+\textbf{\href{http://davisig.org/blog/2016/07/26/KDQ_AnimalShelter}{Kaggle Done Quick}}\\
 \textbf{FastText Horror Author Classification}\\
-\textbf{Driven Data: Blood Drive Donations}\\
-\textbf{Kaggle: Fish Identification}\\
+\textbf{\href{https://github.com/davisincubator/digblood}{Driven Data: Blood Drive Donations}}\\
+\textbf{\href{https://github.com/davisincubator/sashimdig}{Kaggle: Fish Identification}}\\
 
 \section{TECHNICAL EXPERIENCE}
 \textbf{PhD Researcher} \hfill UC Davis MIND Institute and Neuroscience Graduate Group\\ 
@@ -108,10 +109,12 @@ Davis, CA \hfill September 2012 - present
 \begin{itemize} \itemsep -2pt
 %\item Completed 8 posters for scientific conferences
 \item Developed 6 child-friendly computerized behavior tests (disguised as games)
-\item Developed analysis protocols for behavioral data, eye tracking data, event-related potential data, resting state functional MRI data, and physiological data
-\item Conducted analyses, including k-means clustering, ICA, and non-linear modelling
+\item Used k-means clustering to classify children as "copers" or "strugglers" based on behavioral, eye-tracking, and self-report measures
+\item Used ICA to isolate brain activity from noise in EEG data
+\item Used non-linear modeling to classify participants behavior over time
+\item Used linear regression to correlate trajectories of brain development and children's outcomes in a large (~500 GB) dataset
 \item Programmed data analyses and visual stimuli using R, Python, and Matlab
-\item Trained four junior research assistants and four volunteer interns
+\item Trained and mentored four junior research assistants and seven volunteer interns
 \end{itemize}
 
 \textbf{Davis Incubator Group} \hfill Student organized group at UC Davis\\
@@ -120,8 +123,7 @@ Member (January - August 2016); President (September 2016 - present)
 \begin{itemize} \itemsep -2pt
 \item Completed online coursework in python, SQL, and machine learning
 \item Participated collaboratively in online machine learning competitions, finishing in the top 10\% of a drivendata.org competition
-\item Practiced coding, machine learning, and data science skills
-\item Organized and scheduled meetings for a group of 6-8 data scientists
+\item Organized and scheduled meetings for a group of 6-8 data scientists to practiced coding, machine learning, and share data science skills
 \end{itemize}
 
 %\textbf{22q11.2 Research Center and Clinic}\\
@@ -152,17 +154,18 @@ Member (January - August 2016); President (September 2016 - present)
 %\item Statistical analysis of ventricular volume
 %\item End of quarter rotation talk presenting protocol and findings
 %\end{itemize}
-\textbf{Research Assistant} \hfill Brown Center for the Study  of Children at Risk\\
-Women and Infants Hospital, Providence, RI \hfill January 2011 - May 2012 \
-\begin{itemize} \itemsep -2pt
-	\item Recruited, scheduled, and tested approximately 75 participants on three visits
-%	\item Scored tasks from these participants' visits
-	\item Conducted data analyses including developing formulae for eliminating outliers, basic summary statistics, and t-tests
-	\item Completed literature searches for grant building information
-	\item Wrote a script to generate compiled data from output software
-	\item Created a system for standardized digitization of about 200 audio cassettes 
-	\item Trained volunteers to help in the lab
-	\end{itemize}
+
+%\textbf{Research Assistant} \hfill Brown Center for the Study  of Children at Risk\\
+%Women and Infants Hospital, Providence, RI \hfill January 2011 - May 2012 \
+%\begin{itemize} \itemsep -2pt
+%	\item Recruited, scheduled, and tested approximately 75 participants on three visits
+%%	\item Scored tasks from these participants' visits
+%	\item Conducted data analyses including developing formulae for eliminating outliers, basic summary statistics, and t-tests
+%	\item Completed literature searches for grant building information
+%	\item Wrote a script to generate compiled data from output software
+%	\item Created a system for standardized digitization of about 200 audio cassettes 
+%	\item Trained volunteers to help in the lab
+%	\end{itemize}
 	
 %	\textbf{Concordance of Movement and Heart Rate Responses in Fetuses at Risk for Autism}\\
 %Dr. Stephen J. Sheinkopf \hfill Brown University, Providence RI \\
@@ -256,8 +259,10 @@ Women and Infants Hospital, Providence, RI \hfill January 2011 - May 2012 \
                     
  \section{LEADERSHIP AND\\ COMMUNITY EXPERIENCE}
  \begin{itemize}[leftmargin=-2pt]\itemsep -2pt
-\item[] \textbf {Neurobiology (class of 200 undergraduates)} Teaching Assitant (April - June 2015)
-\item[] \textbf{Explorations, UC Davis Undergraduate Research Journal} Editor (Feb - June 2015); Managing Editor (Sept 2015 - Present)
+ \item[]\textbf{International Rescue Committee}\\Refugee Empowerment Volunteer (Focus on Computer Support/Literacy)\hfill (Jan 2017 - Present)
+ \item[] \textbf{Explorations, UC Davis Undergraduate Research Journal} \\Editor \hfill(Feb - June 2015)\\ Managing Editor \hfill (Sept 2015 - Present)
+\item[] \textbf {Neurobiology (class of 200 undergraduates)} \\Teaching Assistant \hfill (April - June 2015)
+
 
 %, Davis, CA\\{\sl Editor} \hfill February 2015 - June 2015 \\
 %{\sl Managing Editor, Social Sciences} \hfill September 2015 - Present
@@ -268,33 +273,37 @@ Women and Infants Hospital, Providence, RI \hfill January 2011 - May 2012 \
 %\item Format articles for publication
 %\end{itemize}
 
-\item[] \textbf{Women in Science and Engineering Mentorship Program} Mentor (Sept 2015-Present)
+%\item[] \textbf{Women in Science and Engineering Mentorship Program} Mentor (Sept 2015-Present)
 
-\item[]\textbf{Neuroimaging Journal Club} Student Facilitator (Sept 2013 - Present)
+%\item[]\textbf{Neuroimaging Journal Club} Student Facilitator (Sept 2013 - Present)
+
 %\begin{itemize}
 %\item Invite faculty guests, select papers and lead student discussions for the student-run neuroimaging journal club
 %\end{itemize}
 
-\item[]\textbf{Brain Awareness Week} Graduate Student Presenter (March 2013 - Present)
+%\item[]\textbf{Brain Awareness Week} Graduate Student Presenter (March 2013 - Present)
+
 %\begin{itemize}
 %\item Developed and presented a new station on Vestibular Nystagmus for a school for struggling high schoolers in Sacramento
 %\item Presented posters at a booth at the Farmer's Market
 %\item Taught neuroanatomy using sheep brains to high schoolers in Davis
 %\end{itemize}
 
-\item[]\textbf{UC - Davis Neuroblog}, Graduate Student Contributor (Sept 2013 - Present)
+%\item[]\textbf{UC - Davis Neuroblog}, Graduate Student Contributor (Sept 2013 - Present)
+
 %\begin{itemize}
 %\item Plan, write and publish posts about neuroscience, advocacy and related topics to a student run blog.
 %\end{itemize}
 
-\item[]\textbf{The Graduate Academic Achievement and Advocacy Program} Graduate Student Volunteer and Mentor (Sept 2013 - June 2015)
+%\item[]\textbf{The Graduate Academic Achievement and Advocacy Program} Graduate Student Volunteer and Mentor (Sept 2013 - June 2015)
+
 %\begin{itemize}
 %\item Advice and assist students from underrepresented minorities one on one on topics such as graduate school applications and science writing
 %\item Plan and run workshops for students from underrepresented minorities on topics such as graduate school applications, research assistantships and gap years
 %\item Mentor a student
 %\end{itemize}
 
-\item[]\textbf{Graduate Student Assembly} Departmental Representative (Sept 2013 - June 2015)
+%\item[]\textbf{Graduate Student Assembly} Departmental Representative (Sept 2013 - June 2015)
 %\begin{itemize}
 %\item Attend meetings and vote on policy affecting graduate students at UC Davis and in the wider UC graduate student assembly
 %\item Publicize information to graduate group
