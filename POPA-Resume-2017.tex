@@ -4,7 +4,8 @@
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
 \usepackage{enumitem}
 \usepackage{hyperref}
-\oddsidemargin -0.25in
+\oddsidemargin -0.3in
+\topmargin = -0.3in
 \textwidth 5.75in
 
 \begin{document}
@@ -35,8 +36,8 @@ Major: Cognitive Neuroscience with a Data Science Initiative Affiliation\\
                 
  \section{TECHNICAL SKILLS} 
  \begin{itemize}[leftmargin=-2pt] \itemsep -2pt
-\item [] R, Matlab, Python, Jupyter, git, SQL, SPSS, DataGraph, \LaTeX\ , HTML, CSS
-\item []Packages including ggplot, nlme, sklearn, pandas
+\item [] Python, R, Matlab, Jupyter, git, SQL, SPSS, DataGraph, \LaTeX\ , HTML, CSS
+\item []Packages including TensorFlow, sklearn, ggplot, nlme, pandas,  tflearn
 %SPSS
  %\item[]Experienced: Scheme, OCaml, Java, Jupyter
  %\item[] If I have a computer and an internet connection, I can learn it!
@@ -91,30 +92,34 @@ Major: Cognitive Neuroscience with a Data Science Initiative Affiliation\\
 
 %\section{SENIOR HONORS THESIS}
 \section{PROJECTS}
-\textbf{\href{http://davisig.org/blog/2016/07/26/KDQ_AnimalShelter}{Kaggle Done Quick: Animal Shelter Predictions}}
-\begin{itemize}\itemsep -2pt
-\item Cleaned and re-binned data for feature dimensionality reduction
-\item Performed multinomial logistic regression using the nnet package of R to predict five possible outcomes for shelter animal
-\item Generated confusion matrices to visualize data
+
+
+\textbf{\href{https://github.com/davisincubator/sashimdig}{Kaggle: Fish Identification}}
+\begin{itemize} \itemsep -2pt
+\item Used skimage, TensorFlow, and tflearn to classify fish images from a kaggle data set
+\item Preprocessed images using PIL and skimage and stored data in HDF5 for efficiency
+\item Collaborated with three other data scientists to apply convolutional neural networks
 \end{itemize}
+
 \textbf{FastText Horror Author Classification}
 \begin{itemize}\itemsep -2pt
 \item Used Facebook's publically available package FastText to classify text 
-\item Populated data from Project Gutenburg of copyright free text
-\item Pre-processed text using bash shell scripts
+\item Pre-processed text populated from Project Gutenburg public domain database using bash
 \item Achieved 80\% accuracy for single sentences between two horror authors 
 \end{itemize}
+
+\textbf{\href{http://davisig.org/blog/2016/07/26/KDQ_AnimalShelter}{Kaggle Done Quick: Animal Shelter Predictions}}
+\begin{itemize}\itemsep -2pt
+\item Cleaned and re-binned data for feature dimensionality reduction
+\item Performed multinomial logistic regression using the nnet package of R to predict five possible outcomes for shelter animal and generated confusion matrices to visualize data
+\item Completed project in under 4 hours
+\end{itemize}
+
 \textbf{\href{https://github.com/davisincubator/digblood}{Driven Data: Blood Drive Donations}}
 \begin{itemize}\itemsep -2pt
 \item Cleaned data in pandas to account for outliers and unusual distributions
-\item Used sklearn to cross-validate multiple models, eventually selecting random forest classification
-\item Collaborated with three other data scientists
-\item Finished in the top 10\% of competitors
-\end{itemize}
-\textbf{\href{https://github.com/davisincubator/sashimdig}{Kaggle: Fish Identification}}
-\begin{itemize} \itemsep -2pt
-\item Used skimage, tensorflow, and tflearn to classify fish images from a kaggle data set
-\item Colloborated with three other data scientists to apply convolutional neural networks
+\item Used sklearn to cross-validate multiple models, selecting random forest classification
+\item Collaborated with three other data scientists to finish in the top 10\% of competitors
 \end{itemize}
 
 \section{TECHNICAL EXPERIENCE}
@@ -126,18 +131,18 @@ Davis, CA \hfill September 2012 - present
 \item Used k-means clustering to classify children as "copers" or "strugglers" based on behavioral, eye-tracking, and self-report measures
 \item Used ICA to isolate brain activity from noise in EEG data
 \item Used non-linear modeling to classify participants behavior over time
-\item Used linear regression to correlate trajectories of brain development and children's outcomes in a large (~500 GB) dataset
+\item Used linear regression to correlate trajectories of brain development and children's outcomes in a large (approximately 500 GB) dataset
 \item Programmed data analyses and visual stimuli using R, Python, and Matlab
 \item Trained and mentored four junior research assistants and seven volunteer interns
 \end{itemize}
 
 \textbf{Davis Incubator Group} \hfill Student organized group at UC Davis\\
-Davis, CA \hfill January 2016 - Present\\
+%Davis, CA \hfill January 2016 - Present\\
 President \hfill (September 2016 - present)\\
 Member \hfill (January - August 2016) 
 \begin{itemize} \itemsep -2pt
 \item Completed online coursework in python, SQL, and machine learning
-\item Participated collaboratively in online machine learning competitions, finishing in the top 10\% of a drivendata.org competition
+\item Participated collaboratively in online machine learning competitions
 \item Organized and scheduled meetings for a group of 6-8 data scientists to practiced coding, machine learning, and share data science skills
 \end{itemize}
 
@@ -218,7 +223,10 @@ Member \hfill (January - August 2016)
  \section{LEADERSHIP AND\\ COMMUNITY EXPERIENCE}
  \begin{itemize}[leftmargin=-2pt]\itemsep -2pt
  \item[]\textbf{International Rescue Committee}\\Refugee Empowerment Volunteer (Focus on Computer Support/Literacy)\hfill (Jan 2017 - Present)
- \item[] \textbf{Explorations, UC Davis Undergraduate Research Journal} \\Editor \hfill(Feb - June 2015)\\ Managing Editor \hfill (Sept 2015 - Present)
+ \item[] \textbf{Explorations, UC Davis Undergraduate Research Journal} 
+ \\ Managing Editor \hfill (Sept 2015 - Present)
+ \\Editor \hfill(Feb - June 2015)
+
 \item[] \textbf{Neuroscience Initiative to Enhance Diversity} \\ Student Organizer \hfill (Event held April 2016)
 \item[] \textbf {Neurobiology (class of 200 undergraduates)} \\Teaching Assistant \hfill (April - June 2015)
 
