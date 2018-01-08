@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 DEC 2017 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 DEC 2017 16:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**STOKES-CV-2017.tex
-(./STOKES-CV-2017.tex
+**STOKES-CV-2018.tex
+(./STOKES-CV-2018.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (./res.cls
@@ -44,7 +44,7 @@ No auxiliary output files.
 LaTeX Warning: Unused global option(s):
     [10pt].
 
-No file STOKES-CV-2017.aux.
+No file STOKES-CV-2018.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
@@ -68,34 +68,48 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
+ [1
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 53--60
+
+ []
 
 
-./STOKES-CV-2017.tex:36: LaTeX Error: Lonely \item--perhaps a missing list envi
-ronment.
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \item  []
-              Selected projects:
-? 
-./STOKES-CV-2017.tex:36: Emergency stop.
- ...                                              
-                                                  
-l.36 \item  []
-              Selected projects:
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ []
 
- 
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--95
+
+ []
+
+[2] [3] [4] ) 
 Here is how much of TeX's memory you used:
- 302 strings out of 492995
- 3498 string characters out of 6132704
- 57363 words of memory out of 5000000
- 3936 multiletter control sequences out of 15000+600000
- 4906 words of font info for 18 fonts, out of 8000000 for 9000
+ 305 strings out of 492995
+ 3390 string characters out of 6132704
+ 61363 words of memory out of 5000000
+ 3937 multiletter control sequences out of 15000+600000
+ 5252 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,3n,21p,515b,159s stack positions out of 5000i,500n,10000p,200000b,80000s
-./STOKES-CV-2017.tex:36:  ==> Fatal error occurred, no output PDF file produced
-!
+ 29i,4n,21p,615b,191s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+l10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb>
+Output written on STOKES-CV-2018.pdf (4 pages, 104026 bytes).
+PDF statistics:
+ 41 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
