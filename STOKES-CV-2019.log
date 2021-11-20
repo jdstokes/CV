@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.16)  15 APR 2019 10:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.16)  29 APR 2019 20:54
 entering extended mode
-**./STOKES-CV-2018.tex
-(STOKES-CV-2018.tex
+**./STOKES-CV-2019.tex
+(STOKES-CV-2019.tex
 LaTeX2e <2018-04-01> patch level 5
 (res.cls
 Document Style `res' <26 Sep 89>.
@@ -165,7 +165,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 LaTeX Warning: Unused global option(s):
     [10pt].
 
-No file STOKES-CV-2018.aux.
+No file STOKES-CV-2019.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
@@ -221,43 +221,58 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
 
+Underfull \hbox (badness 10000) in paragraph at lines 30--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--42
+
+ []
+
+
+Overfull \hbox (4.39642pt too wide) in paragraph at lines 55--56
+[]\OT1/cmr/m/it/10 Investigating spa-tial nav-i-ga-tion us-ing im-mer-sive VR. 
+\OT1/cmr/m/n/10 De-signed, de-vel-oped, and pro-grammed
+ []
+
 [1
 
 {C:/Users/Greco/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 57--64
+Underfull \hbox (badness 10000) in paragraph at lines 78--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--78
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--95
+Underfull \hbox (badness 10000) in paragraph at lines 109--117
 
  []
 
-[2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
- [4] [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 162.
+[2] [3] [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 187.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
  4296 strings out of 492969
  65092 string characters out of 3126585
- 156782 words of memory out of 3000000
+ 157782 words of memory out of 3000000
  8194 multiletter control sequences out of 15000+200000
  5252 words of font info for 19 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,4n,22p,617b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,5n,22p,557b,406s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Greco/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/Greco/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/Greco/AppData/Local/Programs/MiKTeX 2.9/f
@@ -266,7 +281,7 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Greco/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Gre
 co/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 
-Output written on STOKES-CV-2018.pdf (5 pages, 110082 bytes).
+Output written on STOKES-CV-2019.pdf (5 pages, 111379 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
